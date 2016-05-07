@@ -1,6 +1,6 @@
 Package: manymodels
 Title: Creates a Plot of Multiple Models Coefficients
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: person("Elisha", "Cohen", email = "cohen.elisha@gmail.com", role = c("aut", "cre"))
 Description: This packages takes as inputs multiple fit objects and plots the
     coefficients for easy comparison.

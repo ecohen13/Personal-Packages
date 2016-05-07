@@ -18,6 +18,14 @@ plot of coefficients
 This function plots the coefficients from multiple models
 }
 \examples{
-manymodels()
+x1 <- rnorm(100)
+x2 <- rnorm(100)
+y1 <- 2 + 4*x1 + 1*x2 + rnorm(100)
+y2 <- 3.5*x1 + 0.5*x2 + rnorm(100)
+fit1 <- lm(y1 ~ x1 + x2)
+fit2 <- lm(y2 ~ x1 + x2)
+fits <- list(fit1, fit1)
+methods <- c("fit1", "fit2")
+manymodels(fits, methods)
 }
 
