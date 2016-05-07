@@ -13,7 +13,6 @@
 #' fit2 <- lm(y2 ~ x1 + x2)
 #' fits <- list(fit1, fit1)
 #' methods <- c("fit1", "fit2")
-#' manymodels(fits, methods)
 
 manymodels <- function(fitlist, methodnamevector){
   outdata <- c()

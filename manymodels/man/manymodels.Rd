@@ -26,6 +26,5 @@ fit1 <- lm(y1 ~ x1 + x2)
 fit2 <- lm(y2 ~ x1 + x2)
 fits <- list(fit1, fit1)
 methods <- c("fit1", "fit2")
-manymodels(fits, methods)
 }
 
